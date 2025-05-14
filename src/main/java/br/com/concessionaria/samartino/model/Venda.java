@@ -16,6 +16,5 @@ public class Venda extends PanacheEntity {
 
     public String veiculo;
     public double valor;
-
     public LocalDate dataVenda;
 }
