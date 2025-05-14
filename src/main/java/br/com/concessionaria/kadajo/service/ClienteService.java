@@ -1,6 +1,6 @@
-package br.com.concessionaria.samartino.service;
+package br.com.concessionaria.kadajo.service;
 
-import br.com.concessionaria.samartino.model.Cliente;
+import br.com.concessionaria.kadajo.model.Cliente;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.transaction.Transactional;
 

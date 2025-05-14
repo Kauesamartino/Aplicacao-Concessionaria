@@ -1,4 +1,4 @@
-package br.com.concessionaria.samartino;
+package br.com.concessionaria.kadajo;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 

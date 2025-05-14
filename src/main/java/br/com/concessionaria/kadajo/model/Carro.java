@@ -1,4 +1,4 @@
-package br.com.concessionaria.samartino.model;
+package br.com.concessionaria.kadajo.model;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
 import jakarta.persistence.Entity;
