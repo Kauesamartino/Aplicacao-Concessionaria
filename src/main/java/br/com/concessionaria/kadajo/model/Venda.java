@@ -6,23 +6,23 @@ import jakarta.persistence.*;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "Venda")
+@Table(name = "VENDA")
 public class Venda extends PanacheEntity {
 
     @ManyToOne
-    @JoinColumn(name = "cliente_id", nullable = false)
+    @JoinColumn(name = "CLIENTE_ID", nullable = false)
     public Cliente cliente;
 
     @ManyToOne
-    @JoinColumn(name = "vendedor_id", nullable = false)
+    @JoinColumn(name = "VENDEDOR_ID", nullable = false)
     public Vendedor vendedor;
 
-    @Column(name = "veiculo", nullable = false, length = 100)
+    @Column(name = "VEICULO", nullable = false, length = 100)
     public String veiculo;
 
-    @Column(name = "valor", nullable = false)
+    @Column(name = "VALOR", nullable = false)
     public double valor;
 
-    @Column(name = "data_venda", nullable = false)
+    @Column(name = "DATA_VENDA", nullable = false)
     public LocalDate dataVenda;
 }

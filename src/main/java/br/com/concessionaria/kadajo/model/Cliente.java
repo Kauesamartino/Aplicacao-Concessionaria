@@ -6,18 +6,18 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "Cliente")
+@Table(name = "CLIENTE")
 public class Cliente extends PanacheEntity {
 
-    @Column(name = "nome", nullable = false, length = 100)
+    @Column(name = "NOME", nullable = false, length = 100)
     public String nome;
 
-    @Column(name = "cpf", nullable = false, unique = true, length = 14)
+    @Column(name = "CPF", nullable = false, unique = true, length = 14)
     public String cpf;
 
-    @Column(name = "telefone", length = 20)
+    @Column(name = "TELEFONE", length = 20)
     public String telefone;
 
-    @Column(name = "email", length = 100)
+    @Column(name = "EMAIL", length = 100)
     public String email;
 }
